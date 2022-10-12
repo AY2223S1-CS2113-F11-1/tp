@@ -198,10 +198,11 @@ public class Ui {
     public void showEmptyClientIndexDeleteMessage() {
         showToUser(MESSAGE_EMPTY_CLIENT_INDEX);
     }
+    
     public void showIncorrectListDetailsMessage() {
         showToUser(MESSAGE_INCORRECT_LIST_DETAILS);
     }
-
+    
     public void showMissingClientIndexFlagMessage() {
         showToUser(MESSAGE_MISSING_CLIENT_INDEX_FLAG);
     }
@@ -209,8 +210,7 @@ public class Ui {
     public void showInvalidClientIndexFlagFormatMessage() {
         showToUser(MESSAGE_INVALID_CLIENT_INDEX_FLAG_FORMAT);
     }
-
-
+    
     /* Pair/Unpair-Command-related showMessage methods. */
 
     public void showPairedConfirmationMessage(Client client, Property property) {
@@ -248,6 +248,7 @@ public class Ui {
     public void displayOneProperty(Property property) {
         //property display interface
     }
+
     public void showClientAlreadyPairedMessage() {
         showToUser(MESSAGE_CLIENT_ALREADY_PAIRED);
     }
@@ -259,7 +260,6 @@ public class Ui {
     public void showNoExistingPairMessage() {
         showToUser(MESSAGE_NO_EXISTING_PAIR);
     }
-
 
     /* Check-Command-related showMessage methods. */
 
@@ -286,3 +286,4 @@ public class Ui {
         showToUser(MESSAGE_NUMBER_OF_LIST_RESULTS + count);
     }
 }
+

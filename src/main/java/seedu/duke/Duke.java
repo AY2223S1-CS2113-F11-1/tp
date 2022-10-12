@@ -130,8 +130,8 @@ public class Duke {
                 ui.showPropertyAlreadyPairedMessage();
             } catch (NoExistingPairException e) {
                 ui.showNoExistingPairMessage();
-            } catch(IncorrectListDetailsException e) {
-                ui.showIncorrectListDetailsMessage();}
+            } catch (IncorrectListDetailsException e) {
+                ui.showIncorrectListDetailsMessage();
             } catch (MissingCheckPropertyFlagException e) {
                 ui.showCheckPropertyWrongFormatMessage();
             } catch (UndefinedSubCommandCheckTypeException e) {
