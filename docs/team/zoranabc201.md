@@ -19,12 +19,17 @@ PRM is an app with extensive options for listing the content stored in it -
   internally, and there was no time to change that before V2.1. Therefore, all members of the HashMap which stores
   the pairings are displayed, in no particular order.
 * Added exceptions and messages related to the list function
+* Contributed to the quit function - Added the message for quitting.
 #### Contributions to the UG
 * Added information for the list section of the UG -  
-Described the enhancements I added in the UG.
+Described the list and quit features in The UG.
 #### Contributions to the DG
 * Added information for the list section of the DG - 
 Described the enhancements I added in the DG. This includes contributions both for the design and
-implementation of the list functionality of this program.
+implementation of the list functionality of this program. Added all diagrams to the list portion of the DG.
+* Add manual testing information for the list related functionality in the DG.
 #### Contributions to team-based tasks
 * Updated and closed issues for list functionality on GitHub
+#### Community 
+Reported bugs during PE-D.
+* [PE-D link](https://github.com/zoranabc201/ped/issues)
